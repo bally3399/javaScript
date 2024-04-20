@@ -48,7 +48,6 @@ class Nokia3310 {
                 break;
             default:
                 console.log("Invalid choice number. Please try again");
-                this.mainMenu();
         }
     }
 
