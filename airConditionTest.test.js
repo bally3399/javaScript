@@ -40,7 +40,7 @@ describe('airCondition', ()=> {
         expect(airCondition.getAcTemperature()).toBe(16);
     })
 
-    test("Temperature decrese test", ()=>{
+    test("Temperature decrease test", ()=>{
         airCondition.toggle();
         let result = airCondition.isPowerOn();
         expect(result).toBe(true);
