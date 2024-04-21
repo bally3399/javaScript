@@ -48,6 +48,7 @@ class Nokia3310 {
                 break;
             default:
                 console.log("Invalid choice number. Please try again");
+                this.mainMenu();
         }
     }
 
@@ -140,7 +141,7 @@ class Nokia3310 {
                 default:
                     this.mainMenu();
             }
-            this.mainMenu();
+1
     }
     set() {
         console.log("Set\n1. Message centre number\n2. Message sent as\n3. Message validity");
@@ -230,7 +231,7 @@ class Nokia3310 {
                 console.log("Show cost in");
                 break;
             default:
-                this.mainMenu();
+                this.callRegisterMenu();
         }
     }
 
@@ -248,7 +249,7 @@ class Nokia3310 {
                 console.log("Clear counters");
                 break;
             default:
-                this.mainMenu();
+                this.callRegisterMenu();
         }
     }
 
@@ -272,9 +273,8 @@ class Nokia3310 {
                 console.log("Clear timers");
                 break;
             default:
-                this.mainMenu();
+                this.callRegisterMenu();
         }
-        this.mainMenu();
 
     }
 
@@ -357,7 +357,7 @@ class Nokia3310 {
                 console.log("phone security: ");
                 break;
             default:
-                this.mainMenu();
+                this.settingsMenu();
         }
     }
 
@@ -384,7 +384,7 @@ class Nokia3310 {
                 console.log("confirm sim service actions");
                 break;
             default:
-                this.mainMenu();
+                this.settingsMenu();
 
         }
     }
@@ -412,7 +412,7 @@ class Nokia3310 {
                 console.log("automatic answer");
                 break;
             default:
-                this.mainMenu();
+                this.settingsMenu();
         }
     }
 
@@ -482,7 +482,7 @@ class Nokia3310 {
                 console.log("Memory status");
                 break;
             default:
-                this.mainMenu();
+                this.phoneBookMenu();
         }
     }
 }
