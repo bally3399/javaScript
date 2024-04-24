@@ -1,6 +1,6 @@
 let ac = require("./airCondition.js");
 
- describe('airCondition', ()=> {
+describe('airCondition', ()=> {
     let airCondition;
     beforeEach (()=> {
         airCondition = new ac();
