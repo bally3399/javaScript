@@ -1,12 +1,12 @@
 const num = 2;
-function solve() {
+function exampleFunction() {
     let lastName = "ugbo";
     if(true){
         let firstName = "chinedu";
-        console.log("I print from if block",lastName);
+        console.log("I print from if block",firstName);
 
     }
-    console.log("I print from outside the scope",lastName);
+    console.log("I print from outside the scope",num);
 }
 console.log("I print from outside the function",num);
-solve();
+exampleFunction();
